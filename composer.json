@@ -1,0 +1,30 @@
+{
+    "name": "carmelosantana/wp-options",
+    "description": "Simplifies building admin options with WordPress settings API.",
+    "version": "0.1.0",
+    "keywords": [
+        "wordpress",
+        "options",
+        "settings"
+    ],
+    "type": "library",
+    "authors" : [
+        {
+            "name" : "Carmelo Santana",
+            "email" : "me@carmelosantana.com",
+            "homepage" : "https://carmelosantana.com"
+        }
+    ],
+    "license": "GNU General Public License v2",
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "CarmeloSantana\\WpOptions\\": "src/"
+        }
+    },
+    "support": {
+        "source": "https://github.com/carmelosantana/wp-options"
+    }
+}
